@@ -20,7 +20,7 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$TARGETOS/$TARGETARCH debian:stable-slim
+FROM        --platform=$TARGETOS/$TARGETARCH debian:11-slim
 
 LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
